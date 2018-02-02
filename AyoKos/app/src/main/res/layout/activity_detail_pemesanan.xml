@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuyu.ayokos.DetailPemesanan">
+
+
+    <TextView
+        android:text="DETAIL PMESANAN"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+
+        android:id="@+id/textnamapemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama pemesan"
+        android:textSize="15dp" />
+
+    <TextView
+
+        android:id="@+id/namapemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" />
+
+    <TextView
+
+        android:id="@+id/textnamakos"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:text="nama kos"
+        android:textSize="15dp" />
+
+    <TextView
+
+        android:id="@+id/namakos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" />
+
+
+    <TextView
+
+        android:id="@+id/textpemilikkos"
+        android:layout_width="match_parent"
+        android:text="nama pemilik kos"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <TextView
+
+        android:id="@+id/namapemilik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" />
+
+    <TextView
+
+        android:id="@+id/textjumlah"
+        android:layout_width="match_parent"
+        android:text="jumlah"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <TextView
+
+        android:id="@+id/jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" />
+
+
+    <TextView
+
+        android:id="@+id/textstatus"
+        android:layout_width="match_parent"
+        android:text="status"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <TextView
+
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/texttanggal"
+        android:layout_width="match_parent"
+        android:text="Tanggal Pemesanan"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <TextView
+
+        android:id="@+id/tanggalpemesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" />
+    <TextView
+        android:id="@+id/bukti"
+        android:layout_width="match_parent"
+        android:text="Bukti Pemesanan"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/bukrikonfirmasi"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/buttonKonfirmasi"
+        android:text="konfirmasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

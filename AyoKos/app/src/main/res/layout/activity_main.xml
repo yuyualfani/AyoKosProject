@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuyu.ayokos.MainActivity">
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="270dp"
+        android:layout_height="52dp"
+        android:text="LOGIN"
+        tools:layout_editor_absoluteY="158dp"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <Button
+        android:id="@+id/buttonLihatUser"
+        android:layout_width="270dp"
+        android:layout_height="52dp"
+        android:text="LIHAT DATA USER"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="270dp"
+        android:layout_height="52dp"
+        android:text="REGISTER"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+
+</android.support.constraint.ConstraintLayout>

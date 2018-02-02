@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yuyu.ayokos">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".LihatUser" />
+        <activity android:name=".RegisterPemilik" />
+        <activity android:name=".EditPencari" />
+        <activity android:name=".LihatPemilik" />
+        <activity android:name=".DetailPencari" />
+        <activity android:name=".DetailPemilik" />
+        <activity android:name=".EditPemilik" />
+        <activity android:name=".InsertKamar" />
+        <activity android:name=".LihatDataKamar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Map_API"
+            android:label="@string/title_activity_map__api" />
+        <activity
+            android:name=".Map_API2"
+            android:label="@string/title_activity_map__api2" />
+        <activity
+            android:name=".Map1"
+            android:label="@string/title_activity_map1" />
+        <activity
+            android:name=".Map2"
+            android:label="@string/title_activity_map__api2" />
+        <activity android:name=".LihatKamar" />
+        <activity android:name=".DetailKamar" />
+        <activity android:name=".InsertPemesanan" />
+        <activity android:name=".KonfirmasiPencari" />
+        <activity android:name=".LihatPemesananAdmin" />
+        <activity android:name=".LihatPemesananPencari" />
+        <activity android:name=".Awal" />
+        <activity android:name=".DetailPemesanan" />
+        <activity android:name=".RegisterAdmin" />
+        <activity android:name=".LihatAdmin" />
+        <activity android:name=".DetailAdmin" />
+        <activity android:name=".EditAdmin" />
+        <activity android:name=".LihatKamarMap" />
+        <activity android:name=".DetailKamarMap" />
+        <activity android:name=".LihatLokasiMap" />
+        <activity android:name=".DetailKamarKos" />
+        <activity
+            android:name=".routes.LihatPetunjukArah"
+            android:label="@string/title_activity_lihat_petunjuk_arah" />
+        <activity android:name=".PetunjukArah" />
+        <activity android:name=".ActivityChat" />
+        <activity android:name=".FirstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FisrtPageUser" />
+        <activity android:name=".NotifKeUser" />
+        <activity android:name=".EditKamar" />
+        <activity android:name=".HalamanPemilik" />
+        <activity android:name=".HalamanPencari"></activity>
+    </application>
+
+</manifest>

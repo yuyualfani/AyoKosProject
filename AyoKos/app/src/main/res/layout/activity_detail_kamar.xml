@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailKamar">
+
+    <fragment
+        android:id="@+id/lihatmap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:layout="@layout/dummy_mapviewfragment"
+        tools:context="com.example.yuyu.ayokos.DetailKamar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/namakosD"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="180dp" />
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/namakosD"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+    <TextView
+        android:id="@+id/stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/harga"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+
+        <ImageView
+            
+            android:id="@+id/fotokamar"
+            android:layout_width="100dp"
+            android:layout_height="80dp" />
+
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/petunjuk"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

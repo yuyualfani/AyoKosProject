@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "165908959890",
+    "firebase_url": "https://ayokos-3bfe2.firebaseio.com",
+    "project_id": "ayokos-3bfe2",
+    "storage_bucket": "ayokos-3bfe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165908959890:android:8f927b9cfc845db5",
+        "android_client_info": {
+          "package_name": "com.example.yuyu.ayokos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165908959890-dhu89k22phgdobnoks117v7fen3b6l27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yuyu.ayokos",
+            "certificate_hash": "012eb4ffb2042df6716b4e2d8f161eadcf133077"
+          }
+        },
+        {
+          "client_id": "165908959890-6lqfc49i8aaoluo3e9v1rm322jv4k89u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsiUaAEO2la685KpqEUzyyA79RbaRUzmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165908959890-6lqfc49i8aaoluo3e9v1rm322jv4k89u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

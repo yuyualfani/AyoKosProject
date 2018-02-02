@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/input_register_hint"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuyu.ayokos.Awal">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonLoginPemilik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Pemilik" />
+
+
+        <Button
+            android:id="@+id/buttonLoginPencari"
+            android:text="Login Pencari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/buttonLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGOUT" />
+
+        <Button
+            android:id="@+id/buttonRegisterPemilik"
+            android:text="Register Pemilik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonRegisterPencari"
+            android:text="Register Pencari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonLihatPencari"
+            android:text="Lihat data pencari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonLihatPemilik"
+            android:text="Lihat data pemilik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonInsertKamar"
+            android:text="INSERT KAMAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonLihatKamar"
+            android:text="DATA KAMAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonLihatPemesanan"
+            android:text="DATA DATA PEMESANAN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/buttonCobaMap"
+            android:text="COBA MAP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonKonfirmasiPencari2"
+            android:text="KONFIRMASI PENCARI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:id="@+id/buttonResgiterAdmin"
+            android:text="REGISTER ADMIN "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/chat"
+            android:text="DCHAT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonDataAdmin"
+                android:text="Data ADMIN "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/buttonMapPetunjuk"
+                android:text="PETUNJUK "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
